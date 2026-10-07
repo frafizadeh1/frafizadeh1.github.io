@@ -16,7 +16,7 @@ a{color:#4B5A31}a:hover{color:#2F3A1E}
 .btn:hover{transform:translateY(-1px)}
 .card{transition:border-color .2s ease}
 .card:hover{border-color:#8FA474 !important}
-summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transform:rotate(45deg)}details.grp[open]>summary .chev{transform:rotate(180deg)}.chev{transition:transform .2s ease}</style>
+summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transform:rotate(45deg)}details.grp[open]>summary .chev,details.sub[open]>summary>.chev{transform:rotate(180deg)}.chev{transition:transform .2s ease}</style>
 
 </head>
 <body>
@@ -180,7 +180,12 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <svg class="chev" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
 </summary>
 <div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 20px">
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">بوتاکس</h3>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">بوتاکس</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">بوتاکس چقدر می‌مونه؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">معمولاً چند ماه (حدود ۳ تا ۶ ماه) و بسته به فرد و ناحیه فرق می‌کنه.</p>
@@ -209,7 +214,14 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">«بوتاکس فقط برای خانم‌هاست.»<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">نه، آقایون هم برای خطوط پیشونی و اخم بوتاکس می‌زنن.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">فیلر</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">فیلر</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">«فیلر و بوتاکس یکی‌ان.»<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">نه. بوتاکس عضله رو آروم می‌کنه و خطوط حرکتی رو صاف می‌کنه. فیلر حجم از دست رفته رو برمی‌گردونه یا به لب، گونه، چونه و خط فک فرم می‌ده.</p>
@@ -234,12 +246,26 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">«فیلر هیچ خطری نداره، فقط یه تزریقه.»<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">فیلر معمولاً امنه، ولی عارضه‌ی نادر و جدی‌ای به اسم انسداد عروق داره. برای همین باید توسط پزشکی انجام بشه که آناتومی صورت رو می‌شناسه و آمادگی مدیریت عوارض رو داره.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">مزوتراپی و PRP</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">مزوتراپی و PRP</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">مزوتراپی و PRP هر چند وقت یه بار تکرار می‌شه؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">معمولاً چند جلسه با فاصله‌ی چند هفته (مثلاً ۳ تا ۴ جلسه با فاصله‌ی ۲ تا ۴ هفته)، بسته به نیاز پوستت. بعد از معاینه دقیق‌تر می‌گم.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">عمومی</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">عمومی</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">کیا نباید این کارها رو انجام بدن؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">بارداری و شیردهی، عفونت یا زخم فعال توی ناحیه، بیماری‌های خاص و مصرف بعضی داروها. توی مشاوره سابقه‌ی پزشکی‌ت رو می‌پرسم و بعد تصمیم می‌گیریم.</p>
@@ -252,7 +278,12 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">کدوم درمان برای من مناسب‌تره؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 8px; font-size: 15px; color: #4A5340">برای انتخاب اولیه می‌تونی از این راهنما استفاده کنی. انتخاب نهایی بعد از معاینه مشخص می‌شه و خیلی وقت‌ها هم ترکیبی از چند درمان بهترین نتیجه رو می‌ده.</p><ul style="margin: 0 0 18px; padding-inline-start: 20px; font-size: 15px; color: #4A5340; display: flex; flex-direction: column; gap: 6px"><li>خطوطی که با حرکت صورت پیدا می‌شن (پیشونی، اخم، دور چشم) ← <strong style="color: #2B3122">بوتاکس</strong></li><li>کم شدن حجم صورت (گودی گونه، خط خنده، گودی زیر چشم) ← <strong style="color: #2B3122">فیلر</strong></li><li>فرم‌دهی لب، چانه یا خط فک ← <strong style="color: #2B3122">فیلر</strong></li><li>پوست کدر، کم‌آب، خطوط ریز یا بافت ناصاف ← <strong style="color: #2B3122">مزوتراپی یا PRP</strong></li><li>ریزش یا کم‌پشتی مو ← <strong style="color: #2B3122">PRP یا مزوتراپی مو</strong></li><li>افتادگی خفیف صورت و گردن ← <strong style="color: #2B3122">لیفت با نخ</strong>. برای افتادگی شدید، معمولاً جراحی لازمه و ارجاعت می‌دم.</li><li>جوش، لک یا انتخاب محصولات مراقبتی ← <strong style="color: #2B3122">مراقبت پوست</strong> (معاینه و چیدن روتین مخصوص پوستت)</li><li>اضافه وزن ← <strong style="color: #2B3122">داروی کاهش وزن</strong>، همراه با تغذیه و فعالیت بدنی. این دارو معمولاً برای کسیه که BMI حداقل ۳۰ داره، یا BMI حداقل ۲۷ داره و بیماری مرتبط با وزن مثل فشار خون، دیابت نوع ۲ یا چربی خون بالا هم داره.</li></ul><p style="margin: 0 0 18px; font-size: 15px; color: #4A5340"><strong style="color: #2B3122">نکته: </strong>فیلر حجم می‌ده ولی پوست افتاده رو بالا نمی‌کشه، و بوتاکس هم حجم از دست رفته رو برنمی‌گردونه. برای همین اول باید مشخص بشه مشکل اصلی چیه.</p>
 </details>
-<h4 style="margin: 12px 0 0; font-size: 16px; font-weight: 700; color: #4B5A31">داروها</h4>
+<details class="sub" style="background: #FFFFFF; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h4 style="margin: 0; font-size: 16px; font-weight: 700; color: #4B5A31">داروها</h4>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <div role="note" style="background: #FFF6E5; border: 1px solid #E9C98A; border-radius: 16px; padding: 14px 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14.5px; color: #5B4210">
 <strong style="color: #5B4210">قبل از همه‌چیز</strong>
 <span>داروهای تجویزی، مخصوصاً رقیق‌کننده‌های خون رو هیچ‌وقت خودسرانه قطع نکن.</span>
@@ -284,6 +315,10 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 </details>
 </div>
 </details>
+</div>
+</details>
+</div>
+</details>
 
 <details class="grp" style="background: #E6EDDD; border-radius: 22px; padding: 0 16px">
 <summary style="cursor: pointer; list-style: none; min-height: 80px; display: flex; align-items: center; gap: 14px">
@@ -292,7 +327,12 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <svg class="chev" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
 </summary>
 <div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 20px">
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">بوتاکس</h3>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">بوتاکس</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">اثر بوتاکس کی شروع می‌شه؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">معمولاً ۱۰ تا ۱۴ روز بعد از تزریق. اگه نیاز به ترمیم باشه، ۳ هفته بعد برای ارزیابی بیا.</p>
@@ -301,7 +341,14 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">بعد از بوتاکس چه کارهایی نباید بکنم؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">تا ۲ ساعت عضلات ناحیه رو طبق آموزش من منقبض کن. تا ۶ ساعت سرت رو خم نکن و دراز نکش. تا ۲۴ ساعت صورتت رو نشوی و آب با محل تزریق تماس نداشته باشه. تا ۴۸ ساعت محل رو لمس و ماساژ نکن، روی صورت نخواب و ورزش سنگین، سونا، جکوزی و سولاریوم نرو.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">فیلر</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">فیلر</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">بعد از فیلر چه مراقبتی لازمه؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">تا یک هفته فشار، ماساژ یا دستکاری محل ممنوعه. تا ۲ هفته بعد از فیلر لب، سیگار، قلیان، غذا و نوشیدنی داغ و بوسیدن رو کنار بذار. توی این دو هفته RF و لیزر هم روی همون ناحیه انجام نده.</p>
@@ -310,12 +357,26 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">اگه بعد از فیلر ورم کردم چه کار کنم؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">از کمپرس سرد ملایم استفاده کن و یخ رو مستقیم روی پوست نذار. موقع خواب سرت رو بالاتر از بدن نگه دار و روی صورت نخواب.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">لیفت با نخ</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">لیفت با نخ</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">بعد از کاشت نخ باید چه کار کنم؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">تا ۲ روز محل رو ماساژ نده و فشار نیار. تا ۱۴ روز RF و لیزر انجام نده. تا چند روز به پشت بخواب و سرت رو کمی بالاتر بذار. از سونا و حمام خیلی داغ هم دوری کن.</p>
 </details>
-<h3 style="margin: 12px 0 0; font-size: 19px; font-weight: 700; color: #4B5A31">عمومی</h3>
+</div>
+</details>
+<details class="sub" style="background: #F3F6EE; border: 1px solid #D3DEC6; border-radius: 18px; padding: 0 14px">
+<summary style="cursor: pointer; list-style: none; min-height: 60px; padding: 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #4B5A31">عمومی</h3>
+<svg class="chev" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4B5A31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+</summary>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 0 0 16px">
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">بعد از تزریق چه مسکنی بخورم و چه چیزهایی نخورم؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">تا ۳ روز مسکن‌های ایبوپروفن و ناپروکسن نخور، تا ۷ روز آسپرین نخور (مگه با تجویز پزشک) و تا ۵ روز الکل، مکمل‌های غذایی و ویتامین E مصرف نکن. اگه دردت زیاد بود، فقط طبق تجویز پزشک استامینوفن کدئین بخور.</p>
@@ -323,6 +384,8 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 <details style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 16px; padding: 0 20px">
 <summary style="cursor: pointer; list-style: none; min-height: 56px; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 16px; color: #2B3122">چه علائمی یعنی باید فوراً با دکتر تماس بگیرم؟<span class="plus" aria-hidden="true" style="color: #4B5A31; font-size: 22px; line-height: 1">+</span></summary>
 <p style="margin: 0 0 18px; font-size: 15px; color: #4A5340">دوبینی، تاری دید، تنگی نفس، تهوع و استفراغ شدید، افتادگی شدید پلک یا ابرو، درد شدید یا رو به افزایش، سفید، خاکستری یا بنفش شدن پوست، تب، ترشح چرکی و تورم شدید. منتظر بهتر شدن خودبه‌خودی نباش.</p>
+</details>
+</div>
 </details>
 </div>
 </details>
