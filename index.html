@@ -16,7 +16,7 @@ a{color:#4B5A31}a:hover{color:#2F3A1E}
 .btn:hover{transform:translateY(-1px)}
 .card{transition:border-color .2s ease}
 .card:hover{border-color:#8FA474 !important}
-summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transform:rotate(45deg)}details.grp[open]>summary .chev,details.sub[open]>summary>.chev{transform:rotate(180deg)}.chev{transition:transform .2s ease}</style>
+summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transform:rotate(45deg)}details.grp[open]>summary .chev,details.sub[open]>summary>.chev{transform:rotate(180deg)}.chev{transition:transform .2s ease}.case-filter{background:#FFFFFF;color:#2B3122}.case-filter[aria-pressed="true"]{background:#4B5A31;color:#FFFFFF;border-color:#4B5A31}#lightbox{border:0;padding:0;background:transparent;max-width:min(92vw,720px)}#lightbox::backdrop{background:rgba(20,24,14,.85)}#lightbox img{width:100%;height:auto;max-height:86vh;object-fit:contain;display:block;border-radius:12px}</style>
 
 </head>
 <body>
@@ -131,6 +131,72 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 </div>
 
 </div>
+</div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" style="padding: 24px 20px 72px">
+<div style="max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; text-align: center">
+<span style="font-size: 13px; font-weight: 500; color: #6B7A4F; letter-spacing: 1px">نمونه‌کارها</span>
+<h2 style="margin: 0; font-size: 30px; font-weight: 800; color: #2B3122">قبل و بعد</h2>
+</div>
+<div role="group" aria-label="فیلتر نمونه‌کارها" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px">
+<button type="button" class="case-filter" data-filter="all" aria-pressed="true" style="min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1px solid #C9D6B8; font: inherit; font-size: 14px; font-weight: 500; cursor: pointer">همه</button>
+<button type="button" class="case-filter" data-filter="filler" aria-pressed="false" style="min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1px solid #C9D6B8; font: inherit; font-size: 14px; font-weight: 500; cursor: pointer">فیلر</button>
+<button type="button" class="case-filter" data-filter="thread" aria-pressed="false" style="min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1px solid #C9D6B8; font: inherit; font-size: 14px; font-weight: 500; cursor: pointer">لیفت با نخ</button>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px">
+<article class="case" data-cat="filler" style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 20px; padding: 14px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<button type="button" class="case-img" data-full="images/cases/lip-before.jpg" aria-label="بزرگ‌نمایی عکس قبل" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 800/600">
+<img src="images/cases/lip-before.jpg" alt="فیلر لب – قبل" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #FFFFFF; color: #2B3122; font-size: 12px; font-weight: 700">قبل</span>
+</button>
+<button type="button" class="case-img" data-full="images/cases/lip-after.jpg" aria-label="بزرگ‌نمایی عکس بعد" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 800/600">
+<img src="images/cases/lip-after.jpg" alt="فیلر لب – بعد" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #4B5A31; color: #FFFFFF; font-size: 12px; font-weight: 700">بعد</span>
+</button>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px 4px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #2B3122">فیلر لب</h3>
+<p style="margin: 0; font-size: 14px; color: #4A5340">نیم سی‌سی فیلر لب برای حجم و فرم طبیعی. عکس «بعد» بلافاصله بعد از تزریق گرفته شده؛ کمی ورم و کبودی در روزهای اول طبیعیه و برطرف می‌شه.</p>
+</div>
+</article>
+<article class="case" data-cat="thread" style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 20px; padding: 14px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<button type="button" class="case-img" data-full="images/cases/thread-before.jpg" aria-label="بزرگ‌نمایی عکس قبل" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 3/4">
+<img src="images/cases/thread-before.jpg" alt="لیفت با نخ – قبل" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #FFFFFF; color: #2B3122; font-size: 12px; font-weight: 700">قبل</span>
+</button>
+<button type="button" class="case-img" data-full="images/cases/thread-after.jpg" aria-label="بزرگ‌نمایی عکس بعد" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 3/4">
+<img src="images/cases/thread-after.jpg" alt="لیفت با نخ – بعد" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #4B5A31; color: #FFFFFF; font-size: 12px; font-weight: 700">بعد</span>
+</button>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px 4px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #2B3122">لیفت با نخ</h3>
+<p style="margin: 0; font-size: 14px; color: #4A5340">به خط فک و زاویه‌ی پایین فک دقت کن: بعد از لیفت، خط فک مرتب‌تر شده و افتادگی پایین صورت بالا رفته.</p>
+</div>
+</article>
+<article class="case" data-cat="filler" style="background: #FFFFFF; border: 1px solid #DDE5D3; border-radius: 20px; padding: 14px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<button type="button" class="case-img" data-full="images/cases/fullface-before.jpg" aria-label="بزرگ‌نمایی عکس قبل" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 3/4">
+<img src="images/cases/fullface-before.jpg" alt="فیلر چند ناحیه – قبل" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #FFFFFF; color: #2B3122; font-size: 12px; font-weight: 700">قبل</span>
+</button>
+<button type="button" class="case-img" data-full="images/cases/fullface-after.jpg" aria-label="بزرگ‌نمایی عکس بعد" style="position: relative; display: block; padding: 0; border: 0; background: #E6EDDD; border-radius: 14px; overflow: hidden; cursor: zoom-in; aspect-ratio: 3/4">
+<img src="images/cases/fullface-after.jpg" alt="فیلر چند ناحیه – بعد" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 8px; right: 8px; padding: 2px 10px; border-radius: 999px; background: #4B5A31; color: #FFFFFF; font-size: 12px; font-weight: 700">بعد</span>
+</button>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px 4px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #2B3122">فیلر چند ناحیه</h3>
+<p style="margin: 0; font-size: 14px; color: #4A5340">فیلر گونه، خط لبخند، چانه، زاویه‌ی فک و زیر چشم؛ برای برگردوندن حجم از دست رفته و فرم متعادل صورت.</p>
+</div>
+</article>
+</div>
+<p style="margin: 0; text-align: center; font-size: 13px; color: #5A6450">برای دیدن عکس بزرگ‌تر، روی هر عکس بزن. نتیجه‌ی درمان در هر فرد متفاوته.</p>
 </div>
 </section>
 
@@ -434,5 +500,15 @@ summary::-webkit-details-marker{display:none}details[open]>summary>.plus{transfo
 
 </div>
 
+<dialog id="lightbox" aria-label="عکس بزرگ"><form method="dialog" style="margin:0"><button type="submit" aria-label="بستن" style="position:absolute;top:8px;left:8px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.9);font-size:22px;cursor:pointer">×</button></form><img alt=""></dialog>
+<script>
+(function(){
+var lb=document.getElementById('lightbox'),li=lb.querySelector('img');
+document.querySelectorAll('.case-img').forEach(function(b){b.addEventListener('click',function(){li.src=b.dataset.full;li.alt=b.querySelector('img').alt;if(lb.showModal){lb.showModal();}else{window.open(b.dataset.full,'_blank');}});});
+lb.addEventListener('click',function(e){if(e.target===lb)lb.close();});
+var fs=document.querySelectorAll('.case-filter');
+fs.forEach(function(f){f.addEventListener('click',function(){fs.forEach(function(x){x.setAttribute('aria-pressed',x===f?'true':'false');});var k=f.dataset.filter;document.querySelectorAll('.case').forEach(function(c){c.style.display=(k==='all'||c.dataset.cat===k)?'':'none';});});});
+})();
+</script>
 </body>
 </html>
